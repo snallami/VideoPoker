@@ -9,7 +9,7 @@ public class Runner {
         System.out.println("Starting Video Poker...");
         while(true) {
             VideoPoker vp = new VideoPoker();
-            System.out.println("\nShuffling...");
+            System.out.println("\nShuffling.......");
             vp.shuffle();
             System.out.println("\nYour cards...");
             vp.playersCards();
