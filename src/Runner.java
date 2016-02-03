@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class Runner {
     public static void main(String[] args){
         System.out.println("Starting Video Poker...");
+		System.out.println("Starting Video Poker... test");
         while(true) {
             VideoPoker vp = new VideoPoker();
             System.out.println("\nShuffling.......");
