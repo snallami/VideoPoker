@@ -40,8 +40,10 @@ public class VideoPoker {
         sortPlayersCards();
         for(int i = 1; i <= NUMBER_OF_CARDS_AT_PLAY; i++){
             System.out.println(i + ") " + cardFace(deck[i - 1]));
+            System.out.println("test 1");
         }
     }
+
 
     private String cardFace(int cardIndex){
         int s = cardIndex % NUMBER_OF_SUITS;
